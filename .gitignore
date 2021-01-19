@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SIGO.Notificacao
+/src/SIGO.Notificacao.App/obj
+/src/SIGO.Notificacao.App/SIGO.Notificacao.App.csproj.user

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SIGO.Notificacao.App": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
