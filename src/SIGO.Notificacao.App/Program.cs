@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace SIGO.Notificacao.App
 {
@@ -8,10 +6,7 @@ namespace SIGO.Notificacao.App
     {
         static void Main(string[] args)
         {
-            new Thread(() =>
-            {
-                SmsQueeConsumer.ConsumeQueue();
-            }).Start();
+            SmsQueeConsumer.ConsumeQueue();
 
             Console.WriteLine("Recebendo mensagens...");
             Console.ReadLine();
